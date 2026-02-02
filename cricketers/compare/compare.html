@@ -1,0 +1,1155 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Compare Players - Cricketer Comparison Site | ESPNcricinfo</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://wassets.hscicdn.com/static/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="../../Css/style.css" />
+    <link rel="stylesheet" href="../../Css/sliders.css" />
+  </head>
+  <body class="dark-mode">
+    <div class="header">
+      <div class="matches-categories">
+        <a href="#0" class="matches-category active" data-category="all">
+          Matches (20)
+        </a>
+        <a href="#0" class="matches-category" data-category="zim-tri">
+          ZIM T20 Tri-Series (2)
+        </a>
+        <a href="#0" class="matches-category" data-category="eng-w-vs-ind-w">
+          ENG-W vs IND-W (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="sa-vs-aus">
+          SA vs AUS (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="sl-vs-ban">
+          SL vs BAN (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="uae-tri">
+          UAE T20 Tri-Series (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="gsl">GSL (2)</a>
+        <a href="#0" class="matches-category" data-category="max60">
+          max60 (4)
+        </a>
+        <a
+          href="#0"
+          class="matches-category"
+          data-category="vitality-blast-women">
+          Vitality Blast Women (2)
+        </a>
+        <a
+          href="#0"
+          class="matches-category"
+          data-category="vitality-blast-men">
+          Vitality Blast men (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="qea-trophy">
+          QEA Trophy (5)
+        </a>
+      </div>
+      <div class="matches-container">
+        <button class="nav-arrow flex justify-center left prevBtn">
+          <i class="ri-arrow-left-s-line"></i>
+        </button>
+        <div class="current-matches">
+          <div class="matches-slider"></div>
+        </div>
+        <button class="nav-arrow flex justify-center right nextBtn">
+          <i class="ri-arrow-right-s-line"></i>
+        </button>
+      </div>
+      <div class="normal-navigation">
+        <div class="navigation flex space-between">
+          <div class="nav-left flex">
+            <a href="../../index.html">
+              <div class="logo">
+                <img
+                  src="https://wassets.hscicdn.com/static/images/logo.png"
+                  alt="Logo"
+                  class="no-hover" />
+              </div>
+            </a>
+            <div class="nav-links flex">
+              <div class="dropdown-container">
+                <a
+                  href="../../live-scores/live-scores.html"
+                  class="nav-link active dropdown-trigger"
+                  >Live Scores</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Livs Scores Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Results </span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Season View</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Desktop Scoreboard</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Schedule</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Month View</span></a
+                        >
+                        <a
+                          href="./ci/engine/match/index.html"
+                          class="dropdown-item flex"
+                          ><span>International Calender</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../../series/series.html" class="nav-link">Series</a>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Bangladesh vs Pakistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>MAX60</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>England vs India</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>ENG Women vs IND Women</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe Twenty20 Tri-Series</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Vitality Blast Men</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>County Div1</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Test Championship 2025-2027</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>World Cup League 2</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>-Archives-</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>GSL 2025</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Sri Lanka vs Bangladesh</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>West Indies vs Australia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe vs South Africa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe vs New Zealand</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Vitality Blast Women</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>County Div2</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Women's Championship</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>-Future series-</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../../teams/teams.html" class="nav-link">Teams</a>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Austrlia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Bangladesh</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>England</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>India</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>New Zealand</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Pakistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>South Africa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Sri Lanka</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>West Indies</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Afganistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Canada</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Ireland</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Namibia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Nepal</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Netherland</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Oman</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Scotland</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>UAE</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>USA</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../../cricket-news/cricket-news.html" class="nav-link"
+                  >News</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>News Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Ball-tampering</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Racism</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Corruption</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Future of ODIs</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Technology in cricket</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Run-out controversies</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a
+                  href="../../cricket-features/cricket-features.html"
+                  class="nav-link"
+                  >Features</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Features Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Web stories</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Photo galleries</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>The Cricket Monthly</span
+                          ><span><i class="ri-external-link-line"></i></span
+                        ></a>
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>On this day</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Writers</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Cricinfo 30 years</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a
+                  href="../../cricket-videos/cricket-videos.html"
+                  class="nav-link"
+                  >Videos</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Features Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Cricinformed</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>TimeOut</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Haan ya Naa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>YouTube</span
+                          ><span><i class="ri-external-link-line"></i></span
+                        ></a>
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Game day</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>T20 Time Out हिंदी</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Kya Khoya Kya Paaya</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../../records/records.html" class="nav-link">Stats</a>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Stats Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Statsguru</span
+                          ><span><i class="ri-external-link-line"></i></span
+                        ></a>
+                        <a href="#" class="dropdown-item flex"
+                          ><span>2025 records</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>All records</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Grounds</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>AskCricinfo</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>SuperStats</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>2024 records</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Players</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Rankings</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-right flex">
+            <div class="text">
+              <div class="dropdown-container">
+                <div class="nav-icon flex justify-center">Edition PK</div>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Africa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Bangladesh</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>India - Hindi</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Pakistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>United Kingdom</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Global</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Australia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>India</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>New Zealand</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Sri Lanka</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>United States</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-icons flex">
+              <div class="nav-icon theme-toggler flex justify-center">
+                <i class="ri-sun-fill"></i>
+              </div>
+              <div class="nav-icon flex justify-center">
+                <i class="ri-notification-3-fill"></i>
+              </div>
+              <div class="dropdown-container">
+                <div class="nav-icon flex justify-center">
+                  <i class="ri-grid-fill"></i>
+                </div>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section col-d">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex space-between">
+                          <div class="flex gap-10">
+                            <div class="holder">
+                              <img
+                                src="https://a.espncdn.com/redesign/assets/img/logos/wisden.png"
+                                alt="Wisden Almaneck" />
+                            </div>
+                            <span>Wisden Almaneck</span>
+                          </div>
+                          <div class="icon flex justify-center">
+                            <i class="ri-external-link-line"></i>
+                          </div>
+                        </a>
+                        <a href="#" class="dropdown-item flex space-between">
+                          <div class="flex gap-10">
+                            <div class="holder">
+                              <img
+                                src="https://a.espncdn.com/redesign/assets/img/logos/espn-logo-cric.png"
+                                alt="ESPN.in" />
+                            </div>
+                            <span>ESPN.in</span>
+                          </div>
+                          <div class="icon flex justify-center">
+                            <i class="ri-external-link-line"></i>
+                          </div>
+                        </a>
+                        <div class="footer-nav flex justify-center">
+                          <a href="#0" class="footer-link">Feedback</a>
+                          <a href="#0" class="footer-link">Sitemap</a>
+                          <a href="#0" class="footer-link">About us</a>
+                          <a href="#0" class="footer-link">Contact us</a>
+                          <a href="#0" class="footer-link">Careers</a>
+                        </div>
+                        <div class="footer-nav flex justify-center">
+                          <a href="#0" class="footer-link"
+                            >About Nielsen Measurements</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-icon flex justify-center">
+                <i class="ri-search-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="main-content compare-page">
+      <div class="left-content">
+        <div class="breadcrumb flex space-between mb">
+          <div class="heading">
+            <h2 class="font-small">Compare Cricketers</h2>
+          </div>
+        </div>
+        <div class="card scoring-breakdown">
+          <div class="card-head bg br">
+            <div class="content grid fr-three justify-center">
+              <div class="player pr">
+                <a href="#0">
+                  <div class="profile-pic mt-1">
+                    <img
+                      src="https://wassets.hscicdn.com/static/images/player-compare-placeholder-headshot.svg"
+                      alt="Add Player" />
+                  </div>
+                </a>
+                <div class="name mt">
+                  <div class="bowlers-dropdown">
+                    <div class="bowlers">
+                      <a href="#0" class="flex justify-center"> Add Player </a>
+                    </div>
+                    <div class="dropdown first">
+                      <div class="dropdown-content">
+                        <div class="teams-list active">
+                          <div class="search-container">
+                            <div class="search-box">
+                              <i class="ri-search-line"></i>
+                              <input
+                                type="text"
+                                class="search-input"
+                                placeholder="Search Player..." />
+                            </div>
+                          </div>
+                          <div class="teams-column">
+                            <div class="column">
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/397100/397148.5.png" alt="Joe Root" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Joe Root</span>
+                                </div>
+                                <span>England</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316605.3.png"
+                                        alt="Virat Kohli" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Virat Kohli</span>
+                                </div>
+                                <span>India</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320300/320389.1.png"
+                                        alt="Temba Bavuma" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Temba Bavuma</span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/393600/393647.2.png"
+                                        alt="Corbin Bosch" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"> Corbin Bosch </span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/385700/385794.1.png" alt="Steven Smith" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"> Steven Smith </span>
+                                </div>
+                                <span>Australia</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/394300/394322.5.png" alt="Jake Weatherald" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Jake Weatherald</span>
+                                </div>
+                                <span>Australia</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/335100/335134.1.png"
+                                        alt="Dewald Brevis" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"> Dewald Brevis </span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                       <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320100/320122.1.png" alt="Shai Hope" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Shai Hope</span>
+                                </div>
+                                <span>West Indies</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/322200/322250.1.png"
+                                        alt="Shaheen Shah Afridi" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"
+                                    >Shaheen Shah Afridi</span
+                                  >
+                                </div>
+                                <span>Pakistan</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                       <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/321600/321609.2.png" alt="Michael Neser" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Michael Neser</span>
+                                </div>
+                                <span>Australia</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/402000/402046.5.png"
+                                        alt="Fakhar Zaman" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Fakhar Zaman</span>
+                                </div>
+                                <span>Pakistan</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/388400/388419.5.png"
+                                        alt="Tony De Zorzi" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Tony De Zorzi</span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320400/320448.1.png"
+                                        alt="Babar Azam" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Babar Azam</span>
+                                </div>
+                                <span>Pakistan</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="main-info">
+                <div class="holder"><img src="https://wassets.hscicdn.com/static/images/compare-player-versus.svg" alt="Versus" /></div>
+              </div>
+              <div class="player pr right">
+                <a href="#0">
+                  <div class="profile-pic mt-1">
+                    <img
+                      src="https://wassets.hscicdn.com/static/images/player-compare-placeholder-headshot.svg"
+                      alt="Add Player" />
+                  </div>
+                </a>
+                <div class="name mt">
+                  <div class="bowlers-dropdown">
+                    <div class="bowlers">
+                      <a href="#0" class="flex justify-center"> Add Player </a>
+                    </div>
+                    <div class="dropdown">
+                      <div class="dropdown-content">
+                        <div class="teams-list active">
+                          <div class="search-container">
+                            <div class="search-box">
+                              <i class="ri-search-line"></i>
+                              <input
+                                type="text"
+                                class="search-input"
+                                placeholder="Search Player..." />
+                            </div>
+                          </div>
+                          <div class="teams-column">
+                            <div class="column">
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/397100/397148.5.png" alt="Joe Root" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Joe Root</span>
+                                </div>
+                                <span>England</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316605.3.png"
+                                        alt="Virat Kohli" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Virat Kohli</span>
+                                </div>
+                                <span>India</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320300/320389.1.png"
+                                        alt="Temba Bavuma" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Temba Bavuma</span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/393600/393647.2.png"
+                                        alt="Corbin Bosch" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"> Corbin Bosch </span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/385700/385794.1.png" alt="Steven Smith" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"> Steven Smith </span>
+                                </div>
+                                <span>Australia</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/394300/394322.5.png" alt="Jake Weatherald" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Jake Weatherald</span>
+                                </div>
+                                <span>Australia</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/335100/335134.1.png"
+                                        alt="Dewald Brevis" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"> Dewald Brevis </span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                       <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320100/320122.1.png" alt="Shai Hope" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Shai Hope</span>
+                                </div>
+                                <span>West Indies</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/322200/322250.1.png"
+                                        alt="Shaheen Shah Afridi" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name"
+                                    >Shaheen Shah Afridi</span
+                                  >
+                                </div>
+                                <span>Pakistan</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                       <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/321600/321609.2.png" alt="Michael Neser" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Michael Neser</span>
+                                </div>
+                                <span>Australia</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/402000/402046.5.png"
+                                        alt="Fakhar Zaman" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Fakhar Zaman</span>
+                                </div>
+                                <span>Pakistan</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/388400/388419.5.png"
+                                        alt="Tony De Zorzi" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Tony De Zorzi</span>
+                                </div>
+                                <span>South Africa</span>
+                              </div>
+                              <div class="team-item flex space-between">
+                                <div class="team-info flex">
+                                  <div>
+                                    <div class="team-flag">
+                                      <img
+                                        src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320400/320448.1.png"
+                                        alt="Babar Azam" />
+                                    </div>
+                                  </div>
+                                  <span class="team-name">Babar Azam</span>
+                                </div>
+                                <span>Pakistan</span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="card compare-trending-player">
+          <div class="card-head">
+            <div class="heading flex space-between">
+              <h3>Compare Currently Trending Players</h3>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-content current-key-series flex gap-0 wrap">
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/397100/397148.5.png" alt="Joe Root" />
+                </div>
+                <span>Joe Root</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_160/lsci/db/PICTURES/CMS/316600/316605.3.png"
+                    alt="Virat Kohli" />
+                </div>
+                <span class="team-name">Virat Kohli</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320300/320389.1.png"
+                    alt="Temba Bavuma" />
+                </div>
+                <span class="team-name">Temba Bavuma</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/393600/393647.2.png"
+                    alt="Corbin Bosch" />
+                </div>
+                <span class="team-name"> Corbin Bosch </span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/385700/385794.1.png" alt="Steven Smith" />
+                </div>
+                <span class="team-name"> Steven Smith </span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/394300/394322.5.png" alt="Jake Weatherald" />
+                </div>
+                <span class="team-name">Jake Weatherald</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/335100/335134.1.png"
+                    alt="Dewald Brevis" />
+                </div>
+                <span class="team-name"> Dewald Brevis </span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320100/320122.1.png" alt="Shai Hope" />
+                </div>
+                <span class="team-name">Shai Hope</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/322200/322250.1.png"
+                    alt="Shaheen Shah Afridi" />
+                </div>
+                <span class="team-name">Shaheen Shah Afridi</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/321600/321609.2.png" alt="Michael Neser" />
+                </div>
+                <span class="team-name">Michael Neser</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/402000/402046.5.png"
+                    alt="Fakhar Zaman" />
+                </div>
+                <span class="team-name">Fakhar Zaman</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/388400/388419.5.png"
+                    alt="Tony De Zorzi" />
+                </div>
+                <span class="team-name">Tony De Zorzi</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+              <a href="#0" class="text-color flex gap-1 rounded-box">
+                <div class="team-flag">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320400/320448.1.png"
+                    alt="Babar Azam" />
+                </div>
+                <span class="team-name">Babar Azam</span>
+                <span><i class="ri-add-line"></i></span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="right-sidebar">
+        <div class="card detail-card">
+          <div class="card-body border-bottom">
+            <div class="card-content">
+              <a href="#0" class="card-image-holder">
+                <div class="card-image">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/368500/368515.6.jpg"
+                    alt="Records index: most runs, most wickets, and a lot more" />
+                </div>
+              </a>
+              <div class="card-text w-100">
+                <h3 class="text-color">
+                  Records index: most runs, most wickets, and a lot more
+                </h3>
+              </div>
+            </div>
+          </div>
+          <div class="card-body border-bottom">
+            <div class="card-content">
+              <a href="#0" class="card-image-holder">
+                <div class="card-image">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/367400/367417.6.jpg"
+                    alt="The latest cricket photos" />
+                </div>
+              </a>
+              <div class="card-text w-100">
+                <h3 class="text-color">The latest cricket photos</h3>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-content">
+              <a href="#0" class="card-image-holder">
+                <div class="card-image">
+                  <img
+                    src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/364300/364310.6.jpg"
+                    alt="Rankings: Who's leading in every format" />
+                </div>
+              </a>
+              <div class="card-text w-100">
+                <h3 class="text-color">
+                  Rankings: Who's leading in every format
+                </h3>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="back-to-top">
+        <div class="icon flex justify-center">
+          <i class="ri-arrow-up-s-line"></i>
+        </div>
+      </div>
+    </section>
+    <footer class="footer match-details">
+      <div class="footer-content">
+        <div class="footer-bottom flex space-between w-100">
+          <div class="short-links flex gap-0">
+            <a href="#0" class="link">Terms of Use</a>
+            <a href="#0" class="link">Privacy Policy</a>
+            <a href="#0" class="link">Interest-Based Ads</a>
+            <a href="#0" class="link">Feedback</a>
+          </div>
+          <div class="copyrights">
+            <p>© 2025 ESPN Sports Media Ltd. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="../../Js/dynamic.js"></script>
+    <script src="../../Js/sliders.js"></script>
+    <script src="../../Js/app.js"></script>
+  </body>
+</html>

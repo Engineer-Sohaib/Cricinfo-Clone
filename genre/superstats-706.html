@@ -1,0 +1,1333 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SuperStats - a story feature section on ESPNcricinfo.com</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://wassets.hscicdn.com/static/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" />
+    <link rel="stylesheet" href="../Css/style.css" />
+    <link rel="stylesheet" href="../Css/sliders.css" />
+  </head>
+  <body class="dark-mode">
+    <div class="header">
+      <div class="matches-categories">
+        <a href="#0" class="matches-category active" data-category="all">
+          Matches (20)
+        </a>
+        <a href="#0" class="matches-category" data-category="zim-tri">
+          ZIM T20 Tri-Series (2)
+        </a>
+        <a href="#0" class="matches-category" data-category="eng-w-vs-ind-w">
+          ENG-W vs IND-W (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="sa-vs-aus">
+          SA vs AUS (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="sl-vs-ban">
+          SL vs BAN (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="uae-tri">
+          UAE T20 Tri-Series (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="gsl">GSL (2)</a>
+        <a href="#0" class="matches-category" data-category="max60">
+          max60 (4)
+        </a>
+        <a
+          href="#0"
+          class="matches-category"
+          data-category="vitality-blast-women">
+          Vitality Blast Women (2)
+        </a>
+        <a
+          href="#0"
+          class="matches-category"
+          data-category="vitality-blast-men">
+          Vitality Blast men (1)
+        </a>
+        <a href="#0" class="matches-category" data-category="qea-trophy">
+          QEA Trophy (5)
+        </a>
+      </div>
+      <div class="matches-container">
+        <button class="nav-arrow flex justify-center left prevBtn">
+          <i class="ri-arrow-left-s-line"></i>
+        </button>
+        <div class="current-matches">
+          <div class="matches-slider"></div>
+        </div>
+        <button class="nav-arrow flex justify-center right nextBtn">
+          <i class="ri-arrow-right-s-line"></i>
+        </button>
+      </div>
+      <div class="normal-navigation">
+        <div class="navigation flex space-between">
+          <div class="nav-left flex">
+            <a href="../index.html">
+              <div class="logo">
+                <img
+                  src="https://wassets.hscicdn.com/static/images/logo.png"
+                  alt="Logo"
+                  class="no-hover" />
+              </div>
+            </a>
+            <div class="nav-links flex">
+              <div class="dropdown-container">
+                <a
+                  href="../live-scores/live-scores.html"
+                  class="nav-link dropdown-trigger"
+                  >Live Scores</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Livs Scores Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Results </span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Season View</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Desktop Scoreboard</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Schedule</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Month View</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>International Calender</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../series/series.html" class="nav-link">Series</a>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Bangladesh vs Pakistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>MAX60</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>England vs India</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>ENG Women vs IND Women</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe Twenty20 Tri-Series</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Vitality Blast Men</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>County Div1</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Test Championship 2025-2027</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>World Cup League 2</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>-Archives-</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>GSL 2025</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Sri Lanka vs Bangladesh</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>West Indies vs Australia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe vs South Africa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe vs New Zealand</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Vitality Blast Women</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>County Div2</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Women's Championship</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>-Future series-</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../teams/teams.html" class="nav-link">Teams</a>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Austrlia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Bangladesh</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>England</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>India</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>New Zealand</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Pakistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>South Africa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Sri Lanka</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>West Indies</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Zimbabwe</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Afganistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Canada</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Ireland</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Namibia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Nepal</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Netherland</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Oman</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Scotland</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>UAE</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>USA</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../cricket-news/cricket-news.html" class="nav-link">
+                  News
+                </a>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>News Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Ball-tampering</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Racism</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Corruption</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Future of ODIs</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Technology in cricket</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Run-out controversies</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a
+                  href="../cricket-features/cricket-features.html"
+                  class="nav-link"
+                  >Features</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Features Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Web stories</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Photo galleries</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>The Cricket Monthly</span
+                          ><span><i class="ri-external-link-line"></i></span
+                        ></a>
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>On this day</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Writers</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Cricinfo 30 years</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../cricket-videos/cricket-videos.html" class="nav-link"
+                  >Videos</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Features Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Cricinformed</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>TimeOut</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Haan ya Naa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>YouTube</span
+                          ><span><i class="ri-external-link-line"></i></span
+                        ></a>
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Game day</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>T20 Time Out हिंदी</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Kya Khoya Kya Paaya</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="dropdown-container">
+                <a href="../records/records.html" class="nav-link active"
+                  >Stats</a
+                >
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Stats Home</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Statsguru</span
+                          ><span><i class="ri-external-link-line"></i></span
+                        ></a>
+                        <a href="#" class="dropdown-item flex"
+                          ><span>2025 records</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>All records</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Grounds</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>AskCricinfo</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>SuperStats</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>2024 records</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Players</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Rankings</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="nav-right flex">
+            <div class="text">
+              <div class="dropdown-container">
+                <div class="nav-icon flex justify-center">Edition PK</div>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Africa</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Bangladesh</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>India - Hindi</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Pakistan</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>United Kingdom</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Global</span></a
+                        >
+                      </div>
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Australia</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>India</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>New Zealand</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>Sri Lanka</span></a
+                        >
+                        <a href="#" class="dropdown-item flex"
+                          ><span>United States</span></a
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="nav-icons flex">
+              <div class="nav-icon theme-toggler flex justify-center">
+                <i class="ri-sun-fill"></i>
+              </div>
+              <div class="nav-icon flex justify-center">
+                <i class="ri-notification-3-fill"></i>
+              </div>
+              <div class="dropdown-container">
+                <div class="nav-icon flex justify-center">
+                  <i class="ri-grid-fill"></i>
+                </div>
+                <div class="dropdown">
+                  <div class="dropdown-content">
+                    <div class="dropdown-section col-d">
+                      <div class="dropdown-column">
+                        <a href="#" class="dropdown-item flex space-between">
+                          <div class="flex gap-10">
+                            <div class="holder">
+                              <img
+                                src="https://a.espncdn.com/redesign/assets/img/logos/wisden.png"
+                                alt="Wisden Almaneck" />
+                            </div>
+                            <span>Wisden Almaneck</span>
+                          </div>
+                          <div class="icon flex justify-center">
+                            <i class="ri-external-link-line"></i>
+                          </div>
+                        </a>
+                        <a href="#" class="dropdown-item flex space-between">
+                          <div class="flex gap-10">
+                            <div class="holder">
+                              <img
+                                src="https://a.espncdn.com/redesign/assets/img/logos/espn-logo-cric.png"
+                                alt="ESPN.in" />
+                            </div>
+                            <span>ESPN.in</span>
+                          </div>
+                          <div class="icon flex justify-center">
+                            <i class="ri-external-link-line"></i>
+                          </div>
+                        </a>
+                        <div class="footer-nav flex justify-center">
+                          <a href="#0" class="footer-link">Feedback</a>
+                          <a href="#0" class="footer-link">Sitemap</a>
+                          <a href="#0" class="footer-link">About us</a>
+                          <a href="#0" class="footer-link">Contact us</a>
+                          <a href="#0" class="footer-link">Careers</a>
+                        </div>
+                        <div class="footer-nav flex justify-center">
+                          <a href="#0" class="footer-link"
+                            >About Nielsen Measurements</a
+                          >
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="nav-icon flex justify-center">
+                <i class="ri-search-line"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="navigation flex space-between news-nav">
+          <div class="nav-links flex gap-10">
+            <a href="cricket-features.html" class="nav-link active">Features</a>
+            <a href="cricket-features.html" class="nav-link active"
+              >Features Home</a
+            >
+            <a href="#0" class="nav-link">On this day</a>
+            <a href="#0" class="nav-link"> Writers</a>
+            <a href="#0" class="nav-link flex space-between">
+              <span>The Cricket Monthly</span>
+              <span><i class="ri-external-link-line"></i></span>
+            </a>
+            <a href="#0" class="nav-link"> Photo Galleries</a>
+            <a href="#0" class="nav-link"> 2000-2025</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="main-content match-details cricket-news-page mt-1">
+      <div class="left-content">
+        <div class="card info">
+          <div class="card-head">
+            <div class="heading flex space-between">
+              <h3>SuperStats</h3>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-content">
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/379300/379342.6.jpg"
+                      alt="Smart Stats - Buttler's 107* tops batting performances
+                      list, allrounder Narine the MVP so far" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart Stats - Buttler's 107* tops batting performances
+                      list, allrounder Narine the MVP so far
+                    </h2>
+                    <p>
+                      Bumrah's 5 for 21 against RCB, meanwhile, is at the top of
+                      bowling performances of the season
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">17-Apr-2024</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/360700/360714.6.jpg"
+                      alt="Smart Stats - Gill, Shami lead ESPNcricinfo's Impact Ratings for IPL" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart Stats - Gill, Shami lead ESPNcricinfo's Impact
+                      Ratings for IPL
+                    </h2>
+                    <p>
+                      Du Plessis, Jaiswal and Kohli are among the top 10
+                      batters, and Siraj, Rashid and Chahal among the top 10
+                      bowlers
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">22-Mar-2024</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/377400/377402.6.jpg"
+                      alt="Smart Stats - Deepti Sharma bags impact honours in WPL 2024" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart Stats - Deepti Sharma bags impact honours in WPL
+                      2024
+                    </h2>
+                    <p>
+                      A look at the MVPs and the most impactful performances of
+                      WPL 2024, based on ESPNcricinfo's Smart Stats
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">18-Mar-2024</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/366900/366961.6.jpg"
+                      alt="ODIs in overdrive, Tests in fast forward: the key stats of 2023" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      ODIs in overdrive, Tests in fast forward: the key stats of
+                      2023
+                    </h2>
+                    <p>
+                      All the big stats trends from cricket in the year gone by
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">03-Jan-2024</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/360800/360841.6.jpg"
+                      alt="Smart Stats: Du Plessis edges out Gill as MVP, Siraj ahead of Shami among bowlers" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart Stats: Du Plessis edges out Gill as MVP, Siraj ahead
+                      of Shami among bowlers
+                    </h2>
+                    <p>
+                      Jadeja the only CSK player in top ten of MVP list; Maxwell
+                      and Klaasen top two in Batting Impact charts
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">30-May-2023</div>
+                      <div>Shiva Jayaraman</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/358800/358846.1.png"
+                      alt="Smart Stats MVPs - Old is gold as Rahane, du Plessis, Chawla lead the way" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart Stats MVPs - Old is gold as Rahane, du Plessis,
+                      Chawla lead the way
+                    </h2>
+                    <p>
+                      Halfway into IPL 2023, ESPNcricinfo Identifies the best
+                      performers after factoring in the context and match
+                      situation
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">26-Apr-2023</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/348300/348376.6.jpg"
+                      alt="Smart stats - Phillips and Suryakumar soar, Babar struggles" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart stats - Phillips and Suryakumar soar, Babar
+                      struggles
+                    </h2>
+                    <p>
+                      Josh Little and Anrich Nortje take the bowling honours,
+                      but it was a tournament to forget for Kagiso Rabada
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">07-Nov-2022</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/346800/346810.6.jpg"
+                      alt="CPL 2022 - Mayers and Cornwall take top spots in Smart Stats list" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      CPL 2022 - Mayers and Cornwall take top spots in Smart
+                      Stats list
+                    </h2>
+                    <p>
+                      Mohammad Amir emerges as the most impactful bowler despite
+                      finishing behind Alzarri Joseph on the wicket-takers'
+                      chart
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">03-Oct-2022</div>
+                      <div>ESPNcricinfo stats team</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/345100/345198.6.jpg"
+                      alt="Luck Index - How giving four lives to Mendis cost Bangladesh the game" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Luck Index - How giving four lives to Mendis cost
+                      Bangladesh the game
+                    </h2>
+                    <p>
+                      Luck Index puts a value to each of the chances and how
+                      they affected the result
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">01-Sep-2022</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/339100/339130.6.jpg"
+                      alt="Smart stats - Mohsin and Patidar make it an IPL to remember for uncapped players" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart stats - Mohsin and Patidar make it an IPL to
+                      remember for uncapped players
+                    </h2>
+                    <p>
+                      Why Buttler finished second behind Mohsin for maximum
+                      impact per match
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">01-Jun-2022</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/340100/340138.6.jpg"
+                      alt="IPL 2022: Buttler, Livingstone, Mohsin in Hardik-led ESPNcricinfo's Team of the Tournament" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      IPL 2022: Buttler, Livingstone, Mohsin in Hardik-led
+                      ESPNcricinfo's Team of the Tournament
+                    </h2>
+                    <p>
+                      Based on Smart Stats, we've built the XI keeping in mind
+                      the limit of four overseas players
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">30-May-2022</div>
+                      <div>Gaurav Sundararaman</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/339300/339338.9.jpg"
+                      alt="Smart Stats: Russell goes high, Williamson goes low" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>Smart Stats: Russell goes high, Williamson goes low</h2>
+                    <p>
+                      Moeen Ali delivers the biggest impact in a single game
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">23-May-2022</div>
+                      <div>ESPNcricinfo stats team</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/339500/339591.6.jpg"
+                      alt="Luck Index - KKR give de Kock three costly lives" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>Luck Index - KKR give de Kock three costly lives</h2>
+                    <p>
+                      The result of the game could have been quite different had
+                      KKR held on to their chances
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">18-May-2022</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/338000/338090.6.jpg"
+                      alt="Luck Index - The Kane Williamson error that proved costly" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Luck Index - The Kane Williamson error that proved costly
+                    </h2>
+                    <p>
+                      Sunrisers Hyderabad had a chance to dismiss Rovman Powell
+                      when he had scored 18 off 14. They let it slip, and he
+                      duly made them pay
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">05-May-2022</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/338000/338048.6.jpg"
+                      alt="Smart Stats - A tale of two KL Rahul hundreds" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>Smart Stats - A tale of two KL Rahul hundreds</h2>
+                    <p>
+                      The numbers may look similar, but his knock at the
+                      Wankhede was more valuable than the one he scored at the
+                      Brabourne
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">25-Apr-2022</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/338300/338332.6.jpg"
+                      alt="Smart Stats - Buttler, Chahal rule first half of IPL 2022" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart Stats - Buttler, Chahal rule first half of IPL 2022
+                    </h2>
+                    <p>
+                      A look at how impactful individual performances have been,
+                      with the help of Smart Stats
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">24-Apr-2022</div>
+                      <div>S Rajesh</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/338000/338070.6.jpg"
+                      alt="Luck Index - Why you shouldn't give Dinesh Karthik a second chance" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Luck Index - Why you shouldn't give Dinesh Karthik a
+                      second chance
+                    </h2>
+                    <p>
+                      Pant dropped the RCB finisher on 5, a mistake that cost
+                      his team 26 runs, and eventually the game too
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">16-Apr-2022</div>
+                      <div>ESPNcricinfo stats team</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/334000/334086.6.jpg"
+                      alt="Smart Stats: Shadab the MVP of PSL 2022, Shaheen the most impactful bowler" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Smart Stats: Shadab the MVP of PSL 2022, Shaheen the most
+                      impactful bowler
+                    </h2>
+                    <p>
+                      Jason Roy and Harry Brook's scintillating hundreds find a
+                      place among the top five most impactful performances in
+                      the tournament
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">28-Feb-2022</div>
+                      <div>ESPNcricinfo stats team</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/329600/329684.6.jpg"
+                      alt="T20 World Cup: Wanindu Hasaranga takes the Smart Stats honours" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      T20 World Cup: Wanindu Hasaranga takes the Smart Stats
+                      honours
+                    </h2>
+                    <p>
+                      Asalanka, Buttler, Babar and Warner round out top five
+                      performers
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">15-Nov-2021</div>
+                      <div>ESPNcricinfo stats team</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+              <a href="#0" class="item">
+                <div class="content flex ais gap-5">
+                  <div class="holder">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_wide_w_320/lsci/db/PICTURES/CMS/328300/328310.6.jpg"
+                      alt="Glenn Maxwell and Avesh Khan take Smart Stats honours" />
+                  </div>
+                  <div class="text flex col-d ais gap-1">
+                    <h2>
+                      Glenn Maxwell and Avesh Khan take Smart Stats honours
+                    </h2>
+                    <p>
+                      Why Harshal Patel came in second on the Smart Wickets
+                      list, the top match performers and more
+                    </p>
+                    <div class="indicator flex">
+                      <div class="dot mr-1">16-Oct-2021</div>
+                      <div>ESPNcricinfo stats team</div>
+                    </div>
+                  </div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="news-pagination flex justify-center mt-2">
+          <div class="pagination flex gap">
+            <div class="icon flex justify-center border-right">
+              <i class="ri-arrow-left-s-line"></i>
+            </div>
+            <div class="icon flex justify-center border-right">
+              <i class="ri-arrow-left-double-line"></i>
+            </div>
+            <div class="no flex gap">
+              <div class="icon flex justify-center active">1</div>
+              <div class="icon flex justify-center">2</div>
+              <div class="icon flex justify-center">3</div>
+              <div class="icon flex justify-center">4</div>
+              <div class="icon flex justify-center">5</div>
+            </div>
+            <div class="icon flex justify-center border-left active">
+              <i class="ri-arrow-right-s-line"></i>
+            </div>
+            <div class="icon flex justify-center border-left active">
+              <i class="ri-arrow-right-double-line"></i>
+            </div>
+          </div>
+          <div class="news-count mt">Showing 1 - 20 of 109</div>
+        </div>
+      </div>
+      <div class="right-sidebar">
+        <div class="card match-coverage">
+          <div class="card-head">
+            <div class="heading flex space-between">
+              <h3>Most Read</h3>
+            </div>
+          </div>
+          <div class="card-body">
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5 ais">
+                <div class="card-image-holder">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/410500/410520.10.jpg"
+                      alt="Shaheen Shah Afridi removed from attack for dangerous
+                      bowling on BBL debut" />
+                  </div>
+                </div>
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">
+                      Shaheen Shah Afridi removed from attack for dangerous
+                      bowling on BBL debut
+                    </h2>
+                    <div class="indicator flex gap-0">
+                      <div class="dot mr-1">15-Dec-2025</div>
+                      <div class="dot mr-1">23 hrs ago</div>
+                      <div>Tristan Lavalette</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5 ais">
+                <div class="card-image-holder">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/397800/397817.10.jpg"
+                      alt="Axar ruled out of last two T20Is against South Africa; Shahbaz named replacement" />
+                  </div>
+                </div>
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">
+                      Axar ruled out of last two T20Is against South Africa;
+                      Shahbaz named replacement
+                    </h2>
+                    <div class="indicator flex gap-0">
+                      <div class="dot mr-1">15-Dec-2025</div>
+                      <div class="dot mr-1">20 hrs ago</div>
+                      <div>ESPNcricinfo staff</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5 ais">
+                <div class="card-image-holder">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/410500/410533.10.jpg"
+                      alt="Liked, shared, scouted: how Izaz Sawariya went from Instagram to IPL auction" />
+                  </div>
+                </div>
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">
+                      Liked, shared, scouted: how Izaz Sawariya went from
+                      Instagram to IPL auction
+                    </h2>
+                    <div class="indicator flex gap-0">
+                      <div class="dot mr-1">15-Dec-2025</div>
+                      <div class="dot mr-1">18 hrs ago</div>
+                      <div>Shashank Kishore</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5 ais">
+                <div class="card-image-holder">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/410000/410080.10.jpg"
+                      alt="Brook pledges to temper approach after playing 'shocking shots'" />
+                  </div>
+                </div>
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">
+                      Brook pledges to temper approach after playing 'shocking
+                      shots'
+                    </h2>
+                    <div class="indicator flex gap-0">
+                      <div class="dot mr-1">15-Dec-2025</div>
+                      <div>Matt Roller</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5 ais">
+                <div class="card-image-holder">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_ds_square_w_80/lsci/db/PICTURES/CMS/401600/401683.10.jpg"
+                      alt="IPL 2026 auction: what the ten teams have, and who they will be desperate to get" />
+                  </div>
+                </div>
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">
+                      IPL 2026 auction: what the ten teams have, and who they
+                      will be desperate to get
+                    </h2>
+                    <div class="indicator flex gap-0">
+                      <div class="dot mr-1">12-Dec-2025</div>
+
+                      <div>Deivarayan Muthu</div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+        <div class="card match-coverage">
+          <div class="card-head">
+            <div class="heading flex space-between">
+              <h3>Writers</h3>
+              <a href="#0" class="link"><span class="hover">See All</span></a>
+            </div>
+          </div>
+          <div class="card-body">
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5">
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">Matt Roller</h2>
+                    <p>
+                      'The best of both worlds' - Tim Southee enjoying
+                      player/coach transition
+                    </p>
+                    <div class="indicator flex gap-0">
+                      <span>5h ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-image-holder rad-50">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/314600/314658.png"
+                      alt="Matt Roller" />
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5">
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">Vithushan Ehantharajah</h2>
+                    <p>
+                      Counties agree to cut in men's Vitality Blast games for
+                      2026
+                    </p>
+                    <div class="indicator flex gap-0">
+                      <span>1h ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-image-holder rad-50">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/373000/373043.png"
+                      alt="Vithushan Ehantharajah" />
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5">
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">Andrew Fidel Fernando</h2>
+                    <p>Can Bangladesh stop Sri Lanka's in-form batters?</p>
+                    <div class="indicator flex gap-0">
+                      <span>1m ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-image-holder rad-50">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/320000/320032.png"
+                      alt="Andrew Fidel Fernando" />
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5">
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">Firdose Moonda</h2>
+                    <p>
+                      SA20 not threatened by BBL's aim to be second-biggest
+                      league after IPL, says Smith
+                    </p>
+                    <div class="indicator flex gap-0">
+                      <span>5h ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-image-holder rad-50">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/314600/314653.png"
+                      alt="Firdose Moonda" />
+                  </div>
+                </div>
+              </div>
+            </a>
+
+            <a href="#0" class="card-content">
+              <div class="content flex gap-5">
+                <div class="card-text w-100">
+                  <div class="text">
+                    <h2 class="font-small">Osman Samiuddin</h2>
+                    <p>Holy mackerel Batman, what did we just watch?</p>
+                    <div class="indicator flex gap-0">
+                      <span>12d ago</span>
+                    </div>
+                  </div>
+                </div>
+                <div class="card-image-holder rad-50">
+                  <div class="card-image">
+                    <img
+                      src="https://img1.hscicdn.com/image/upload/f_auto,t_h_100/lsci/db/PICTURES/CMS/103900/103930.1.jpg"
+                      alt="Osman Samiuddin" />
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer class="footer match-details">
+      <div class="footer-content">
+        <div class="footer-bottom flex space-between w-100">
+          <div class="short-links flex gap-0">
+            <a href="#0" class="link">Terms of Use</a>
+            <a href="#0" class="link">Privacy Policy</a>
+            <a href="#0" class="link">Interest-Based Ads</a>
+            <a href="#0" class="link">Feedback</a>
+          </div>
+          <div class="copyrights">
+            <p>© 2025 ESPN Sports Media Ltd. All rights reserved</p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="../Js/dynamic.js"></script>
+    <script src="../Js/sliders.js"></script>
+    <script src="../Js/app.js"></script>
+  </body>
+</html>

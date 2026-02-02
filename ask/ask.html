@@ -1,0 +1,651 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ask Cricinfo - Answers to Your Cricket Questions</title>
+    <link
+      rel="shortcut icon"
+      type="image/x-icon"
+      href="https://wassets.hscicdn.com/static/images/favicon.ico" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.css" />
+    <link rel="stylesheet" href="../Css/style.css" />
+    <link rel="stylesheet" href="../Css/sliders.css" />
+  </head>
+  <body class="dark-mode no-scroll">
+    <div class="header askinfo-header normal-navigation">
+      <div class=" ">
+        <div class="navigation">
+          <div class="flex space-between">
+            <div class="main-container">
+              <div class="logo mb-1">
+                <img
+                  src="https://www.espncricinfo.com/ask/images/askcriclogo.png"
+                  class="no-hover"
+                  alt="Ask Cricinfo Logo" />
+              </div>
+              <div class="search-container flex gap-0">
+                <div class="bowlers-dropdown flex justify-center border-right">
+                  <div class="bowlers flex justify-center">
+                    <div class="teams-dp flex space-between">
+                      <h3>Mens</h3>
+                      <span class="angle-down">
+                        <i class="ri-arrow-down-s-line"></i>
+                      </span>
+                    </div>
+                  </div>
+                  <div class="dropdown">
+                    <div class="dropdown-content">
+                      <div class="teams-column grid fr-div">
+                        <div class="column border-right">
+                          <div class="content">
+                            <div class="heading">
+                              <h1>All Internationals</h1>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="radio"
+                                id="mens-int"
+                                class="checkbox"
+                                checked />
+                              <label for="mens-int" class="team-name">
+                                Men's
+                              </label>
+                            </div>
+                          </div>
+                          <div class="content">
+                            <div class="heading">
+                              <h1>Tests</h1>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="radio"
+                                id="mens-tests"
+                                class="checkbox" />
+                              <label for="mens-tests" class="team-name">
+                                Men's Tests
+                              </label>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="radio"
+                                id="women-tests"
+                                class="checkbox" />
+                              <label for="women-tests" class="team-name">
+                                Women's Tests
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="column border-right">
+                          <div class="content">
+                            <div class="heading">
+                              <h1>ODI</h1>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="checkbox"
+                                id="mens-odi"
+                                class="checkbox" />
+                              <label for="mens-odi" class="team-name">
+                                Men's ODI
+                              </label>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="checkbox"
+                                id="women-odi"
+                                class="checkbox" />
+                              <label for="women-odi" class="team-name">
+                                Women's ODI
+                              </label>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="checkbox"
+                                id="women-odi-wc"
+                                class="checkbox" />
+                              <label for="women-odi-wc" class="team-name">
+                                Women's ODI World Cup
+                              </label>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="checkbox"
+                                id="mens-odi-wc"
+                                class="checkbox" />
+                              <label for="mens-odi-wc" class="team-name">
+                                Men's ODI World Cup
+                              </label>
+                            </div>
+                            <div class="team-item flex">
+                              <input
+                                type="checkbox"
+                                id="cham-top"
+                                class="checkbox" />
+                              <label for="cham-top" class="team-name">
+                                Champions Trophy
+                              </label>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="column">
+                          <div class="content">
+                            <div class="heading">
+                              <h1>T20</h1>
+                            </div>
+                            <div class="grid fr-2">
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="all-t20"
+                                  class="checkbox" />
+                                <label for="all-t20" class="team-name">
+                                  All T20s
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="vitailty-blast"
+                                  class="checkbox" />
+                                <label for="vitailty-blast" class="team-name">
+                                  Vitailty Blast
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="ipl-t20"
+                                  class="checkbox" />
+                                <label for="ipl-t20" class="team-name">
+                                  IPL
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="wpl-t20"
+                                  class="checkbox" />
+                                <label for="wpl-t20" class="team-name">
+                                  WPL
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="women-t20i"
+                                  class="checkbox" />
+                                <label for="women-t20i" class="team-name">
+                                  Women's T20I
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="bpl-t20i"
+                                  class="checkbox" />
+                                <label for="bpl-t20i" class="team-name">
+                                  BPL
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="mens-t20i"
+                                  class="checkbox" />
+                                <label for="mens-t20i" class="team-name">
+                                  Men's T20I
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="cpl-t20"
+                                  class="checkbox" />
+                                <label for="cpl-t20" class="team-name">
+                                  CPL
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="women-t20i-wc"
+                                  class="checkbox" />
+                                <label for="women-t20i-wc" class="team-name">
+                                  Women's T20 World Cup
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="psl-t20"
+                                  class="checkbox" />
+                                <label for="psl-t20" class="team-name">
+                                  PSL
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="men-t20i-wc"
+                                  class="checkbox" />
+                                <label for="men-t20i-wc" class="team-name">
+                                  Men's T20 World Cup
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="bbl-t20"
+                                  class="checkbox" />
+                                <label for="bbl-t20" class="team-name">
+                                  BBL
+                                </label>
+                              </div>
+                              <div class="team-item flex">
+                                <input
+                                  type="checkbox"
+                                  id="lpl-t20"
+                                  class="checkbox" />
+                                <label for="lpl-t20" class="team-name">
+                                  LPL
+                                </label>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="search-box">
+                  <i class="ri-search-line"></i>
+                  <input
+                    type="text"
+                    class="search-input"
+                    placeholder="search men stats" />
+                  <div class="popup-toggler mic-popup">
+                    <i class="ri-mic-fill"></i>
+                  </div>
+                </div>
+              </div>
+              <div class="text-last flex jcl mt-1">
+                <a href="#0" class="link">How its Works</a>
+                <i class="ri-arrow-right-s-line"></i>
+              </div>
+            </div>
+            <div class="version flex justify-center"><p>Beta</p></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="main-content askinfo-page pr">
+      <div class="left-content">
+        <div class="card ask-cricinfo mt-minus">
+          <div class="card-head flex space-between">
+            <div class="heading"><h3>Try Asking...</h3></div>
+            <div class="dropdown-container flex">
+              <p><i class="ri-error-warning-line danger-color"></i></p>
+              <p>Tips For Searching</p>
+              <div class="dropdown">
+                <div class="card">
+                  <div class="card-head flex">
+                    <span><i class="ri-lightbulb-fill"></i></span>
+                    <div class="heading"><h3>Remember to...</h3></div>
+                  </div>
+                  <div class="card-body">
+                    <div class="card-content">
+                      <ul>
+                        <li>
+                          Get the spellings right, especially for player names.
+                        </li>
+                        <li>
+                          Try rephrasing if a question has us stumped, we are
+                          still learning 🙂 !
+                        </li>
+                        <li>
+                          Use specific terms - ‘batting’, ‘bowling’, ‘in an
+                          innings’, ‘in a season’ (‘ABD batting record’, instead
+                          of ‘ABD record’)
+                        </li>
+                        <li>
+                          Use ‘versus/vs/v’ for batsman-versus-bowler queries,
+                          and ‘and’ to compare two players (‘Kohli vs Rashid’,
+                          ‘Warner and Rohit in death’)
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="card-body">
+            <div class="card-content text-color">
+              <a href="#0" class="flex full-length space-between">
+                <div class="flex ais">
+                  <span>
+                    <i class="ri-search-line"></i>
+                  </span>
+                  <span>
+                    Sri Lanka record when chasing a target between 175 and 200
+                  </span>
+                </div>
+                <span>
+                  <i class="ri-arrow-right-s-line danger-color"></i>
+                </span>
+              </a>
+              <a href="#0" class="flex full-length space-between">
+                <div class="flex ais">
+                  <span>
+                    <i class="ri-search-line"></i>
+                  </span>
+                  <span> Wriddhiman Saha's record as opener in the IPL? </span>
+                </div>
+                <span>
+                  <i class="ri-arrow-right-s-line danger-color"></i>
+                </span>
+              </a>
+              <a href="#0" class="flex full-length space-between">
+                <div class="flex ais">
+                  <span>
+                    <i class="ri-search-line"></i>
+                  </span>
+                  <span>
+                    Most dot balls in men ODI world cup 2023 against Pakistan
+                  </span>
+                </div>
+                <span>
+                  <i class="ri-arrow-right-s-line danger-color"></i>
+                </span>
+              </a>
+              <a href="#0" class="flex full-length space-between">
+                <div class="flex ais">
+                  <span>
+                    <i class="ri-search-line"></i>
+                  </span>
+                  <span>
+                    Which captain has lost the most matches as captain in the
+                    IPL after winning the toss
+                  </span>
+                </div>
+                <span>
+                  <i class="ri-arrow-right-s-line danger-color"></i>
+                </span>
+              </a>
+              <a href="#0" class="flex full-length space-between">
+                <div class="flex ais">
+                  <span>
+                    <i class="ri-search-line"></i>
+                  </span>
+                  <span> Most runs in ODIs since 2019 </span>
+                </div>
+                <span>
+                  <i class="ri-arrow-right-s-line danger-color"></i>
+                </span>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div class="grid fr-2 gap-1 mt-1">
+          <div class="card ask-cricinfo">
+            <div class="card-head">
+              <div class="heading"><h3>IPL 2024</h3></div>
+            </div>
+            <div class="card-body">
+              <div class="card-content text-color">
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span> Which batter hit the most sixes in IPL 2024?</span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      Among batting pairs with at least 300 runs, which one had
+                      the best run rate in IPL 2024?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      Which team had the best economy rate in the Powerplays in
+                      IPL 2024?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card ask-cricinfo">
+            <div class="card-head">
+              <div class="heading"><h3>T20I World Cup</h3></div>
+            </div>
+            <div class="card-body">
+              <div class="card-content text-color">
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      Who has hit the most sixes in T20 World Cup 2024?</span
+                    >
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      Which Indian bowler took the most wickets in the T20 World
+                      Cup 2024?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      Which batter has the best strike rate in T20 World Cup
+                      2024 min 50 balls?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card ask-cricinfo">
+            <div class="card-head">
+              <div class="heading"><h3>Men's ODIS</h3></div>
+            </div>
+            <div class="card-body">
+              <div class="card-content text-color">
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      What is the highest score by a No. 4 batter in men's
+                      ODIs?</span
+                    >
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      What is Virat Kohli's batting average against Mitchell
+                      Starc in ODIs?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      Who has scored the most runs in a single edition of the
+                      men's ODI World Cup?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="card ask-cricinfo">
+            <div class="card-head">
+              <div class="heading"><h3>T20I/Women's T20I</h3></div>
+            </div>
+            <div class="card-body">
+              <div class="card-content text-color">
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      Who has scored the most runs in a calendar year in men's
+                      T20ls?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      What is the highest partnership in women's T20
+                      Internationals?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+                <a href="#0" class="flex full-length space-between">
+                  <div class="flex ais">
+                    <span>
+                      <i class="ri-search-line"></i>
+                    </span>
+                    <span>
+                      What is the highest target chased successfully in men's
+                      T20Is?
+                    </span>
+                  </div>
+                  <span>
+                    <i class="ri-arrow-right-s-line danger-color"></i>
+                  </span>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="bottom flex">
+          <div class="text">Natural Language Engine by</div>
+          <div class="holder">
+            <img
+              src="https://www.espncricinfo.com/ask/images/asfsearch.svg"
+              alt="asfsearch"
+              class="no-hover" />
+          </div>
+          <div class="holder">
+            <img
+              src="https://www.espncricinfo.com/ask/images/askherefirst.svg"
+              alt="Ask Here First"
+              class="no-hover" />
+          </div>
+        </div>
+      </div>
+      <div class="right-sidebar"></div>
+    </section>
+    <div class="popup speak-search">
+      <div class="card">
+        <div class="card-head">
+          <div class="heading flex space-between">
+            <div class="content flex">
+              <div class="logo mb-1">
+                <img
+                  src="https://www.espncricinfo.com/ask/images/askcriclogo.png"
+                  class="no-hover"
+                  alt="Ask Cricinfo Logo" />
+              </div>
+            </div>
+            <span class="popup-close"><i class="ri-close-line"></i></span>
+          </div>
+        </div>
+        <div class="card-body overs-info">
+          <div class="card-content">
+            <div class="popup-content flex">
+              <div class="left">
+                <i class="ri-volume-up-line"></i>
+                <p>We're listening...</p>
+              </div>
+              <div class="icon flex justify-center">
+                <i class="ri-mic-line"></i>                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="overlay"></div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/3.9.1/chart.min.js"></script>
+    <script src="../Js/app.js"></script>
+  </body>
+</html>

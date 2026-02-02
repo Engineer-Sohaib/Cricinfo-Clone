@@ -1,0 +1,308 @@
+@import url(./style.css);
+
+.left-content .common-slider {
+  max-width: 915px;
+}
+
+.cricket-videos-page .left-content .full-width .common-slider {
+  max-width: 1250px;
+}
+
+.cricket-videos-page .full-width .rounded-box {
+  background: none;
+  border: none;
+}
+
+.cricket-videos-page .full-width .rounded-box:hover {
+  border: none;
+  background: none;
+}
+
+.cricket-videos-page .full-width .rounded-box .holder {
+  width: 100px;
+  height: 100px;
+}
+
+.cricket-videos-page .full-width .rounded-box .holder img {
+  object-fit: contain;
+}
+
+.main-content .right-sidebar {
+  max-width: 316px;
+}
+
+.main-content .right-sidebar .slider-card {
+  max-width: 100%;
+}
+
+.main-content .right-sidebar .slider-card .card-image {
+  min-height: 150px;
+}
+
+.card .slide-item {
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  height: max-content;
+}
+
+.card .slide-content {
+  position: relative;
+  z-index: 2;
+  width: 100%;
+  height: 100%;
+}
+
+.card .slick-dots {
+  bottom: -10px !important;
+  text-align: center;
+}
+
+.card .slick-dots li {
+  margin: -3px !important;
+}
+
+.card .slick-dots li button {
+  width: var(--br-10);
+  height: var(--br-10);
+  border-radius: var(--br-50);
+  background: var(--border-color);
+  border: none;
+  font-size: 0;
+  padding: 0;
+}
+
+.card .slick-dots li.slick-active button {
+  background: var(--theme-color);
+  transition: all 0.3s ease;
+}
+
+.card .slick-dots li button:before {
+  display: none;
+}
+
+.card .slick-prev,
+.card .slick-next {
+  width: 35px;
+  height: 35px;
+  background: var(--card-bg);
+  border: 1px solid var(--card-bg);
+  border-radius: 50%;
+  z-index: 10;
+  top: 35%;
+  transform: translateY(-50%);
+  box-shadow: var(--box-shadow1);
+  pointer-events: none;
+  visibility: hidden;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+
+.cricket-videos-page .slick-nex,
+.cricket-videos-page .slick-next {
+  width: 25px;
+  height: 25px;
+}
+
+.left-content .card .slick-next,
+.left-content .card .slick-prev,
+.card .no-crunching .slick-next,
+.card .no-crunching .slick-prev {
+  top: 50%;
+}
+
+.left-content .card.coverage .slick-next,
+.left-content .card.coverage .slick-prev {
+  top: 35%;
+}
+
+.card .common-slider:hover .slick-next,
+.card .common-slider:hover .slick-prev {
+  pointer-events: all;
+  visibility: visible;
+  opacity: 1;
+}
+
+.left-content .card :hover .common-slider .slick-next,
+.left-content .card:hover .common-slider .slick-prev {
+  pointer-events: all;
+  visibility: visible;
+  opacity: 1;
+}
+
+.card .slick-prev:hover,
+.card .slick-next:hover {
+  background: var(--card-bg);
+  border-color: var(--border-color);
+}
+
+.profile-page .left-content .card.editor-picks .slick-prev,
+.cricket-videos-page .left-content .card.editor-picks .slick-prev,
+.cricket-videos-page .left-content .card.team-fixtures .slick-prev {
+  left: -5px;
+}
+
+.card .slick-prev {
+  left: -15px;
+}
+
+.card .slick-next {
+  right: -15px;
+}
+
+.left-content .card .slick-prev {
+  left: -35px;
+}
+
+.profile-page .left-content .card.editor-picks .slick-next,
+.left-content .card .slick-next {
+  right: -35px;
+}
+
+.left-content .card.editor-picks .slick-next,
+.left-content .card.team-fixtures .slick-next {
+  right: -50px;
+}
+
+.cricket-videos-page .left-content .card.editor-picks .slick-next,
+.cricket-videos-page .left-content .card.team-fixtures .slick-next {
+  right: -10px;
+}
+
+.left-content .card.coverage .slick-prev,
+.left-content .card.writers .slick-prev {
+  left: -20px;
+}
+
+.left-content .card.coverage .slick-next,
+.left-content .card.writers .slick-next {
+  right: -20px;
+}
+
+.card .slick-prev:before,
+.card .slick-next:before {
+  font-size: var(--fs-2);
+  color: var(--text-light);
+  line-height: 1;
+  content: "";
+}
+
+.card.coverage .common-slider .slick-next,
+.card.coverage .common-slider .slick-prev {
+  visibility: visible;
+  opacity: 1;
+  pointer-events: all;
+}
+
+:is(
+    .card.coverage .common-slider .slick-next.slick-disabled,
+    .card.coverage .common-slider .slick-prev.slick-disabled,
+    .card .common-slider .slick-next.slick-disabled,
+    .card .common-slider .slick-prev.slick-disabled,
+    .common-slider .slick-next.slick-disabled,
+    .card .common-slider .slick-prev.slick-disabled
+  ) {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.card .common-slider .icon i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card .slick-dotted.slick-slider {
+  margin-bottom: 0;
+}
+
+.card.coverage .card-content {
+  width: 100%;
+}
+
+.card.coverage .common-slider .slick-slide,
+.card .common-slider .slick-slide {
+  padding: 0 var(--br-5);
+}
+
+.common-slider.slides-9 .slick-slide {
+  padding: 0 var(--br-5);
+  box-sizing: border-box;
+  max-width: 120px;
+  max-height: 120px;
+}
+
+.card.coverage .common-slider .icon-play {
+  bottom: var(--br-5);
+  left: var(--br-5);
+  width: 25px;
+  height: 25px;
+}
+
+.card.coverage .common-slider .icon-play i {
+  font-size: var(--fs-1);
+}
+
+.card.coverage .common-slider .card-image {
+  width: 100%;
+}
+
+/* Slick slider overrides for modal */
+.modal-slider {
+  width: 100%;
+  height: 100%;
+}
+
+.modal-slider .slick-list,
+.modal-slider .slick-track {
+  height: 100%;
+}
+
+.modal-slider .slick-slide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-slider .slide-content .icon.disabled {
+  visibility: hidden;
+  opacity: 0;
+  pointer-events: none;
+}
+
+.header .slick-track {
+  display: flex !important;
+  gap: var(--br-5) !important;
+}
+
+.nav-icons .search-container{
+  position: absolute;
+  left: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 100%;
+  z-index: 999;
+  border-radius: var(--br-10);
+  height: 50px;
+  background: var(--nav-bg);
+}
+
+.header .search-box {
+  width: 100%;
+  position: relative;
+}
+
+.header .search-box input {
+  height: 100%;
+  width: 100%;
+  color: var(--text-color);
+  font-family: Poppins, sans-serif;
+  font-size: var(--fs-1);
+  font-weight: var(--fw-6);
+  padding: var(--br-10) var(--br-10) var(--br-10) 2.2rem;
+  background: transparent;
+  border: 1px solid var(--border-color);
+  border-radius: var(--br-10);
+}

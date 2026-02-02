@@ -1,0 +1,300 @@
+/* 
+.right-sidebar .team-perform .header-row {
+  padding: 8px var(--card-padding);
+  font-size: var(--fs-0);
+  font-weight: var(--fw-4);
+  color: var(--text-color);
+  background: var(--blur-bg);
+}
+
+.right-sidebar .team-perform .header-stats {
+  gap: 32px;
+}
+
+.right-sidebar .team-perform #tab-1 .header-stats {
+  gap: 30px;
+}
+
+.right-sidebar .team-perform #tab-1 .header-stats.gap {
+  gap: 15px;
+}
+
+.right-sidebar .team-perform .bowling-header-stats {
+  display: flex;
+  gap: 16px;
+}
+
+.right-sidebar .team-perform .player-row {
+  padding: var(--br-5) var(--card-padding);
+  font-size: var(--fs-0);
+  font-weight: var(--fw-4);
+  color: var(--text-color);
+}
+
+.right-sidebar .team-perform .player-info {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  flex: 1;
+} */
+
+/* 
+.right-sidebar .team-perform .stats {
+  display: flex;
+  justify-content: space-between;
+  font-weight: var(--fw-5);
+  width: 15%;
+}
+
+.right-sidebar .team-perform #tab-1 .stats {
+  width: 50%;
+}
+
+.right-sidebar .team-perform .stats span {
+  width: 20%;
+}
+
+.right-sidebar .team-perform.results .stats {
+  width: 100%;
+}
+
+.right-sidebar .team-perform #tab-1 .stats span {
+  justify-content: end;
+}
+
+.right-sidebar .team-perform.results .stats span {
+  justify-content: center;
+  width: auto;
+}
+
+.right-sidebar .team-perform.results .header-stats {
+  gap: 25px;
+}
+
+.right-sidebar .team-perform .total-row .stats span {
+  width: 100%;
+}
+
+.right-sidebar .team-perform .total-row .stats {
+  width: 100%;
+}
+
+.right-sidebar .team-perform .bowling-stats {
+  display: flex;
+  gap: 22px;
+  font-weight: var(--fw-7);
+}
+
+.right-sidebar .team-perform .bowling-stats span {
+  width: 20%;
+}
+
+.right-sidebar .team-perform .partnership-stats {
+  display: flex;
+  gap: 20px;
+  font-weight: var(--fw-7);
+} */
+
+
+
+/* .right-sidebar .team-perform .total-row {
+  font-weight: var(--fw-7);
+  font-size: var(--fs-1);
+  padding: var(--br-5) var(--card-padding);
+  background: var(--blur-bg);
+} */
+
+/* 
+.right-sidebar .team-perform .wicket-number {
+  min-width: 30px;
+  color: var(--text-color);
+  font-weight: var(--fw-7);
+}
+
+.right-sidebar .team-perform .runs-number {
+  min-width: 40px;
+  color: var(--text-color);
+  font-weight: var(--fw-7);
+}
+
+.right-sidebar .team-perform #tab-2 .header-row span,
+.right-sidebar .team-perform #tab-2 .player-row span {
+  width: 20%;
+}
+
+.right-sidebar .team-perform #tab-2 .player-row .partnership-players,
+.right-sidebar .team-perform #tab-2 .header-row span:last-child {
+  width: 100%;
+}
+
+.right-sidebar .team-perform .partnership-players {
+  color: var(--text-color);
+  font-size: var(--fs-0);
+  font-weight: var(--fw-5);
+  display: flex;
+  justify-content: space-between;
+} */
+
+/* .right-sidebar .team-perform.results .player-row {
+  padding: var(--br-10) var(--card-padding);
+  font-size: var(--fs-1);
+  font-weight: var(--fw-4);
+  color: var(--text-color);
+} */
+
+/* .full-scoreboard .card-body .batting-section {
+  padding: 0;
+}
+
+.full-scoreboard .card-body .bowling-header,
+
+.full-scoreboard .card-body .stats-row {
+  gap: 15px;
+  font-size: var(--fs-1);
+  font-weight: var(--fw-5);
+}
+
+.full-scoreboard .card-body .stat-item {
+  width: 25px;
+  text-align: right;
+}
+
+.full-scoreboard .card-body .stat-item:last-child {
+  width: 35px;
+} */
+/* 
+.full-scoreboard .card-body .bowler-row,
+.full-scoreboard .card-body .player-row {
+  padding: var(--br-10) var(--card-padding);
+  font-size: var(--fs-1);
+  font-weight: var(--fw-5);
+}
+
+
+.full-scoreboard .card-body .player-name {
+  min-width: 200px;
+} */
+/* 
+.full-scoreboard .card-body .bowling-section {
+  margin-top: 0;
+}
+
+.full-scoreboard .card-body .bowling-stats {
+  gap: 15px;
+  margin-left: auto;
+}
+
+.full-scoreboard .card-body .bowling-stats span {
+  width: 25px;
+  text-align: right;
+}
+
+.full-scoreboard .card-body .bowling-stats span:nth-child(5) {
+  width: 35px;
+}
+
+.full-scoreboard .card-body .bowler-name {
+  width: 140px;
+  font-weight: bold;
+}
+
+.full-scoreboard .card-body .bowling-figures {
+  gap: 15px;
+  flex: 1;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.full-scoreboard .card-body .bowling-stat {
+  width: 25px;
+  text-align: right;
+}
+
+.full-scoreboard .card-body .bowling-stat.text_center {
+  text-align: center;
+}
+
+.full-scoreboard .card-body .bowling-stat.economy {
+  width: 35px;
+  text-align: right;
+}
+
+.full-scoreboard .card-body .bowling-stat.dots {
+  width: 25px;
+  text-align: right;
+}
+
+.full-scoreboard .card-body .wicket-ball {
+  cursor: pointer;
+}
+
+.full-scoreboard .card-body .wicket-ball i {
+  color: var(--theme-color);
+} */
+/* 
+.full-scoreboard .card-body .stats {
+  display: flex;
+  gap: 15px;
+  flex: 1;
+  text-align: right;
+  justify-content: flex-end;
+}
+
+.full-scoreboard .card-body .stat {
+  width: 25px;
+  text-align: right;
+}
+
+.full-scoreboard .card-body .stat.wider {
+  width: 35px;
+  text-align: right;
+} */
+
+/* .full-scoreboard.series-points .table-records .team-row {
+  padding: 0;
+  height: var(--width);
+}
+
+.full-scoreboard.series-points .table-records .team-row .row-item {
+  height: 100%;
+}
+
+.full-scoreboard.series-points .table-records .icon {
+  width: var(--fs-3);
+  height: var(--fs-3);
+  font-size: var(--fs-0);
+  font-weight: var(--fw-4);
+}
+
+.full-scoreboard.series-points .table-records .stat-cell {
+  font-weight: var(--fw-4);
+  font-size: var(--fs-0);
+}
+
+.full-scoreboard.series-points .table-records .match-date {
+  font-size: var(--fs-1);
+  font-weight: var(--fw-4);
+}
+
+.full-scoreboard.series-points .table-records .match-result {
+  font-size: var(--fs-0);
+  font-weight: var(--fw-4);
+}
+
+.full-scoreboard.series-points .table-records .match-details {
+  padding: 2px var(--br-10);
+}
+
+.full-scoreboard.series-points .table-records .header-cell.series,
+.full-scoreboard.series-points .table-records .team-series {
+  max-width: 200px;
+  text-align: right;
+}
+
+.full-scoreboard.series-points .table-records .next-match,
+.full-scoreboard.series-points .table-records .header-cell.next-matches {
+  max-width: 140px;
+  text-align: right;
+}
+
+ */

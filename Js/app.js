@@ -3065,16 +3065,6 @@ $(document).ready(function () {
           opacity: "0",
           visibility: "hidden",
         });
-        // if (!$parent.find(".loading-elements").length) {
-        //   $parent.append(`
-        //     <div class="loading-elements">
-        //       <div class="content text_center">
-        //         <div class="loaded-logo uppercase">espn</div>
-        //         <div class="loaded-text">cricinfo</div>
-        //       </div>
-        //     </div>
-        //   `);
-        // }
       }
     }, 3000);
 
@@ -3099,18 +3089,6 @@ $(document).ready(function () {
         visibility: "hidden",
       });
       $parent.css("background", "var(--blur-bg)");
-
-      // Insert loading HTML if not already present
-      // if (!$parent.find(".loading-elements").length) {
-      //   $parent.append(`
-      //     <div class="loading-elements">
-      //       <div class="content text_center">
-      //         <div class="loaded-logo uppercase">espn</div>
-      //         <div class="loaded-text">cricinfo</div>
-      //       </div>
-      //     </div>
-      //   `);
-      // }
     });
 
     if ($img[0].complete) {
@@ -3164,11 +3142,6 @@ $(document).ready(function () {
     }
 
     $matchRows.slideToggle(250);
-    // $lastRow = $matchRows.find("td.end");
-    // if (!$lastRow.hasClass("end")) {
-    //   $lastRow.addClass("end");
-    //   $lastRow.css("border", "0", "background", "red");
-    // }
     $icon = $seriesList.find(".angle-down");
     $icon.toggleClass("rotated");
   });

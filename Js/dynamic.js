@@ -948,7 +948,7 @@ function loadCoverageContent() {
                         </div>
                     </div>
                 </div>
-            `
+            `,
       )
       .join("");
   }
@@ -972,7 +972,7 @@ function loadCoverageContent() {
                         <span><i class="ri-arrow-right-s-line"></i></span>
                     </a>
                 </div>
-            `
+            `,
       )
       .join("");
   }
@@ -991,7 +991,7 @@ function loadCoverageContent() {
       .attr("data-category", tab.category)
       .append(
         $("<div>").addClass("teams").text(tab.teams),
-        $("<div>").addClass("details").text(tab.details)
+        $("<div>").addClass("details").text(tab.details),
       );
     matchTabs.append(tabElement);
   });
@@ -1273,7 +1273,7 @@ function loadDynamicTrendingPlayers() {
 
     const $playerName = $("<span>").text(player.name);
     const $arrowIcon = $("<span>").html(
-      '<i class="ri-arrow-right-s-line"></i>'
+      '<i class="ri-arrow-right-s-line"></i>',
     );
 
     $playerLink.append($playerName, $arrowIcon);
